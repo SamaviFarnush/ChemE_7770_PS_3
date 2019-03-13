@@ -28,6 +28,7 @@ default_bounds_array[(15:20),1] .= -10;
 ## deactivate lines 25, 26 and activate lines 29 and 30 to see with
 ##no boundary exchange of reaction v5 metabolites
 #default_bounds_array[(length(v_max)+1):15,2] .= 10;
+#default_bounds_array[15,1] = -10;
 
 objective_coefficient_array[10] = -1;
 
