@@ -24,7 +24,7 @@ v_max = 3600/10^3*E.*k_cat.*f;  #mmol/gdW.hr
 default_bounds_array[1:length(v_max),2] .= v_max;
 ## reversible transfer of metabolites involved in v5 & reverse v5
 default_bounds_array[(length(v_max)+1):end,2] .= 10;
-default_bounds_array[(16:20),1] .= -10;
+default_bounds_array[(15:20),1] .= -10;
 ## deactivate lines 25, 26 and activate lines 29 and 30 to see with
 ##no boundary exchange of reaction v5 metabolites
 #default_bounds_array[(length(v_max)+1):15,2] .= 10;
