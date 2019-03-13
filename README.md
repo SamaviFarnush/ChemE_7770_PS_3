@@ -20,4 +20,4 @@
 	- in julia console run
 		 include("c run.jl")
 I have assumed the metabolites involved in reaction v5 can be exchanged through the boundary.
-deactivate lines 25, 26 and activate lines 29 and 30 to see fluxes with no boundary exchange of reaction v5 metabolites	
+deactivate lines 26, 27 and activate lines 30 and 31 to see fluxes with no boundary exchange of reaction v5 metabolites	
